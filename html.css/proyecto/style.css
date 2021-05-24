@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+    height: 100vh;
+
+}
+.imglogo {
+    width: 150px;
+    height: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(40,10,80);
+    background: linear-gradient(90deg, rgba(40,10,80,1) 12%, rgba(61,20,114,1) 100%, rgba(9,121,66,1) 100%);
+    height: 14%;
+}
+.input{
+    background-color: rgba( 255, 255, 255, 0.1);
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    font-size: 19px;
+    height: 50px;
+    padding: 0px 20px;
+    width: 35%;
+    outline: none;
+    margin-top: 45px;
+}
+::placeholder {
+    color: white;
+}
+.list {
+    font-size: 19px;
+    list-style: none;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.list li a {
+    color: white;
+    text-decoration: none;
+}
+.fas {
+    color: white;
+}
+.menu {
+    display: flex;
+    background: linear-gradient(90deg, rgba(40,10,80,1) 12%, rgba(61,20,114,1) 100%, rgba(9,121,66,1) 100%);
+    margin: 0;
+}
+.menu-item {
+    list-style: none;
+    flex: 1;
+    line-height: 3rem;
+    text-align: center;
+    transition: flex 1s;
+    color: #fff;
+    font-size: 19px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.menu-item:hover {
+    flex: 6;
+     margin-right: 6px;
+}
+i {
+    margin-right: 6px;
+}
